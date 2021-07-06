@@ -106,7 +106,7 @@
             // load word lists
             var dictParam = getUrlVars()["dict"];
             var jsonText = '{"words": [';
-            if (dictParam[0]=="1") {jsonText += readTextFile("words/hpDictionary.txt");}
+            if (dictParam[0]=="1") {jsonText += readTextFile("words/pkmnDictionary.txt");}
             if (dictParam[1]=="1") {jsonText += readTextFile("words/words8kDictionary.txt");}
             if (dictParam[2]=="1") {jsonText += readTextFile("words/words100kDictionary.txt");}
             jsonText = jsonText.substring(0, jsonText.length - 1);
@@ -317,7 +317,7 @@
             <button onclick="updateVars(1);">Update</button>
 
             <div style="margin-top:10px;">
-                <div class="cb"><input type="checkbox" id="dictionary1" name="dictionary" onclick="changeDictionary(0)"> Harry Potter Words</div>
+                <div class="cb"><input type="checkbox" id="dictionary1" name="dictionary" onclick="changeDictionary(0)"> Pokemon</div>
 
                 <div class="cb"><input type="checkbox" id="dictionary2" name="dictionary" onclick="changeDictionary(1)"> English Words (8,000+)</div>
 
