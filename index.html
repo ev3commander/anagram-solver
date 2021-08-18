@@ -33,7 +33,7 @@
 
         function changeDictionary(dict) {
             if (typeof getUrlVars()["dict"] == 'undefined') {
-                paramVal = "000".split("");
+                paramVal = "0000".split("");
             }
             else {paramVal = getUrlVars()["dict"].split("");}
             paramVal[dict] = "" + (1 - parseInt(paramVal[dict]));
@@ -67,7 +67,7 @@
             }
             else {
                 document.getElementById('dictionary1').checked=true;
-                window.location.href = setGetParameter("dict","001",window.location.href);
+                window.location.href = setGetParameter("dict","1000",window.location.href);
             }
             if (typeof lettersParam != 'undefined') {
                 solveAnagram();
