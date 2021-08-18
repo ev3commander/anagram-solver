@@ -61,6 +61,9 @@
                 if (dictParam[2]=="1") {
                     document.getElementById('dictionary3').checked=true;
                 }
+                if (dictParam[3]=="1") {
+                    document.getElementById('dictionary4').checked=true;
+                }
             }
             else {
                 document.getElementById('dictionary1').checked=true;
@@ -107,8 +110,10 @@
             var dictParam = getUrlVars()["dict"];
             var jsonText = '{"words": [';
             if (dictParam[0]=="1") {jsonText += readTextFile("words/pkmnDictionary.txt");}
-            if (dictParam[1]=="1") {jsonText += readTextFile("words/words8kDictionary.txt");}
-            if (dictParam[2]=="1") {jsonText += readTextFile("words/words100kDictionary.txt");}
+            if (dictParam[1]=="1") {jsonText += readTextFile("words/itemDictionary.txt");}
+            if (dictParam[2]=="1") {jsonText += readTextFile("words/moveDictionary.txt");}
+            if (dictParam[3]=="1") {jsonText += readTextFile("words/abilDictionary.txt");}
+
             jsonText = jsonText.substring(0, jsonText.length - 1);
             jsonText += ']}';
             var list = JSON.parse(jsonText);
@@ -319,9 +324,11 @@
             <div style="margin-top:10px;">
                 <div class="cb"><input type="checkbox" id="dictionary1" name="dictionary" onclick="changeDictionary(0)"> Pokemon</div>
 
-                <div class="cb"><input type="checkbox" id="dictionary2" name="dictionary" onclick="changeDictionary(1)"> English Words (8,000+)</div>
+                <div class="cb"><input type="checkbox" id="dictionary2" name="dictionary" onclick="changeDictionary(1)"> Items</div>
 
-                <div class="cb"><input type="checkbox" id="dictionary3" name="dictionary" onclick="changeDictionary(2)"> English words (100,000+)</div>
+                <div class="cb"><input type="checkbox" id="dictionary3" name="dictionary" onclick="changeDictionary(2)"> Moves</div>
+                
+                <div class="cb"><input type="checkbox" id="dictionary4" name="dictionary" onclick="changeDictionary(3)"> Abilities</div>
             </div>
             <div id="errors"></div>
             <div id="search"></div>
