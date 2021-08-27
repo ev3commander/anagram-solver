@@ -841,4 +841,17 @@
 {"display":"Yawn", "letters":"YAWN"},
 {"display":"Zap Cannon", "letters":"ZAPCANNON"},
 {"display":"Zen Headbutt", "letters":"ZENHEADBUTT"},
-{"display":"Zing Zap", "letters":"ZINGZAP"}
+{"display":"Zing Zap", "letters":"ZINGZAP"},
+{"display":"Zippy Zap", "letters":"ZIPPYZAP"},
+{"display":"Splishy Splash", "letters":"SPLISHYSPLASH"},
+{"display":"Floaty Fall", "letters":"FLOATYFALL"},
+{"display":"Pika Papow", "letters":"PIKAPAPOW"},
+{"display":"Bouncy Bubble", "letters":"BOUNCYBUBBLE"},
+{"display":"Buzzy Buzz", "letters":"BUZZYBUZZ"},
+{"display":"Sizzly Slide", "letters":"SIZZLYSLIDE"},
+{"display":"Glitzy Glow", "letters":"GLITZYGLOW"},
+{"display":"Baddy Bad", "letters":"BADDYBAD"},
+{"display":"Sappy Seed", "letters":"SAPPYSEED"},
+{"display":"Freezy Frost", "letters":"FREEZYFROST"},
+{"display":"Sparkly Swirl", "letters":"SPARKLYSWIRL"},
+{"display":"Veevee Volley", "letters":"VEEVEEVOLLEY"}
