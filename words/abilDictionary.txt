@@ -268,4 +268,4 @@
 {"display":"Wimp Out", "letters":"WIMPOUT"},
 {"display":"Wonder Guard", "letters":"WONDERGUARD"},
 {"display":"Wonder Skin", "letters":"WONDERSKIN"},
-{"display":"Zen Mode", "letters":"ZENMODE"}
+{"display":"Zen Mode", "letters":"ZENMODE"},
