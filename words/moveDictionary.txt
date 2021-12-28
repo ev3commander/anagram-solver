@@ -854,4 +854,4 @@
 {"display":"Sappy Seed", "letters":"SAPPYSEED"},
 {"display":"Freezy Frost", "letters":"FREEZYFROST"},
 {"display":"Sparkly Swirl", "letters":"SPARKLYSWIRL"},
-{"display":"Veevee Volley", "letters":"VEEVEEVOLLEY"}
+{"display":"Veevee Volley", "letters":"VEEVEEVOLLEY"},
