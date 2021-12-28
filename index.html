@@ -113,9 +113,9 @@
             if (dictParam[1]=="1") {jsonText += readTextFile("words/itemDictionary.txt");}
             if (dictParam[2]=="1") {jsonText += readTextFile("words/moveDictionary.txt");}
             if (dictParam[3]=="1") {jsonText += readTextFile("words/abilDictionary.txt");}
-            console.log(jsonText);
             jsonText = jsonText.substring(0, jsonText.length - 1);
             jsonText += ']}';
+            console.log(jsonText);
             var list = JSON.parse(jsonText);
             list["words"].sort(function(a, b) {
                 return b["letters"].length-a["letters"].length || // sort by length, if equal then
