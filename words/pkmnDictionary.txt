@@ -1152,4 +1152,4 @@
 {"display":"Spectrier", "letters":"SPECTRIER"},
 {"display":"Calyrex", "letters":"CALYREX"},
 {"display":"Calyrex-Ice", "letters":"CALYREXICE"},
-{"display":"Calyrex-Shadow", "letters":"CALYREXSHADOW"}
+{"display":"Calyrex-Shadow", "letters":"CALYREXSHADOW"},
