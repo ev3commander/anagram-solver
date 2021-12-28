@@ -512,4 +512,4 @@
 {"display":"Wise Glasses", "letters":"WISEGLASSES"},
 {"display":"Yache Berry", "letters":"YACHEBERRY"},
 {"display":"Zap Plate", "letters":"ZAPPLATE"},
-{"display":"Zoom Lens", "letters":"ZOOMLENS"}
+{"display":"Zoom Lens", "letters":"ZOOMLENS"},
